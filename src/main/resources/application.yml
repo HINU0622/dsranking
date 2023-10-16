@@ -8,5 +8,11 @@ spring:
     username: root
     password: wjdghk79M
     driver-class-name: com.mysql.cj.jdbc.Driver
-  profiles:
-    include=oauth:
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 06e4c0157f286d10d128
+            client-secret: 680ad0dbbca51c13abaebaa951c2cc5180c2e275

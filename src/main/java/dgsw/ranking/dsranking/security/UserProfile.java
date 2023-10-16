@@ -1,0 +1,20 @@
+package dgsw.ranking.dsranking.security;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.ToString;
+
+@Getter
+@AllArgsConstructor
+@ToString
+public class UserProfile {
+
+    private final String oauthId;
+
+    private final String name;
+
+    private final String email;
+
+    private final String imageUrl;
+
+}

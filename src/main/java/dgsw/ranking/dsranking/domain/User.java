@@ -11,7 +11,7 @@ public class User {
 
     private String name;
 
-    private String Email;
+    private String email;
 
     private String accessToken;
 
